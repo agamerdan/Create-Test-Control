@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="intro py-4 bg-white text-center">
+        <div class="container">
+            <h2 class="text-danger display-3 my-4">Bilmece Uygulaması</h2>  
+        </div>
+        <div class="result py-4 d-none bg-light text-center">
+            <div class="container lead">
+                 <p>Soruların <span class="text-primary display-4 p-3">%0</span> Bildiniz</p>
+            </div>
+        </div>
+    </div>
+    <div class="quiz py-4 bg-secondary">
+        <div class="container">
+            <form class="quiz-form text-light">
+                <p class="lead font-weight-normal">1. Hangisi bir bilgisayarın RAM'ı ile ilgili doğru bir ifade değildir?</p>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s1" value="A" checked>
+                    <label class="form-check-label">RAM, verileri kalıcı olarak saklar.*</label>    
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s1" value="B" >
+                    <label class="form-check-label">RAM, geçici bellek olarak kullanılır.</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s1" value="C" >
+                    <label class="form-check-label">RAM, işlemciye hızlı erişim sağlar.</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s1" value="D" >
+                    <label class="form-check-label">RAM, güç kesildiğinde verileri kaybeder.</label>
+                </div><br>
+
+                <p class="lead font-weight-normal">2. Hangisi bir bilgisayar virüsüne karşı korunmak için alınabilecek bir önlem değildir?</p>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s2" value="A" checked>
+                    <label class="form-check-label">Sık sık güçlü şifreler kullanmak ve değiştirmek</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s2" value="B" >
+                    <label class="form-check-label"> Güçlü bir antivirüs programı kullanmak</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s2" value="C" >
+                    <label class="form-check-label">Bilinmeyen e-posta eklerini açmaktan kaçınmak</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s2" value="D" >
+                    <label class="form-check-label">Dosyaları yedeklememek*</label>
+                </div><br>
+
+                <p class="lead font-weight-normal">3. Hangisi bir bilgisayarın sabit diskini tanımlayan bir terim değildir?</p>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s3" value="A" checked>
+                    <label class="form-check-label">Kapasite</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s3" value="B" >
+                    <label class="form-check-label">Hız*</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s3" value="C" >
+                    <label class="form-check-label">Boyut</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s3" value="D" >
+                    <label class="form-check-label">Depolama</label>
+                </div><br>
+
+                <p class="lead font-weight-normal">4. Hangisi bir bilgisayar ağında bağlantı sorunlarına neden olabilir?</p>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s4" value="A" checked>
+                    <label class="form-check-label">Yanlış IP adresi kullanımı*</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s4" value="B" >
+                    <label class="form-check-label">Hızlı internet bağlantısı</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s4" value="C" >
+                    <label class="form-check-label">Güçlü bir antivirüs programı</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s4" value="D" >
+                    <label class="form-check-label">Yüksek çözünürlüklü monitör</label>
+                </div><br>
+
+                <p class="lead font-weight-normal">5. Hangisi bir bilgisayar donanımı değildir?</p>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s5" value="A" checked>
+                    <label class="form-check-label">Monitör</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s5" value="B" >
+                    <label class="form-check-label">Klavye</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s5" value="C" >
+                    <label class="form-check-label">İşletim sistemi*</label>
+                </div>
+                <div class="form-check my-2 text-black-50">
+                    <input type="radio" name="s5" value="D" >
+                    <label class="form-check-label">Fare</label>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-info" value="Gönder">
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
+
+    
+
+    <script src="test.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
